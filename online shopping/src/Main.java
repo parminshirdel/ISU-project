@@ -1,3 +1,4 @@
+import java.awt.print.Book;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -5,13 +6,20 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String title;
-        double price;
-        int stock;
-    }
-        boolean isOutOfStock() {
-        return stock ==0;
-        }
+
+
+        System.out.println("Are a user or admin");
+        String userType = sc.nextLine().toLowerCase();
+
+        if (userType.equals("admin")) {
+            System.out.println("Welcome Admin");
+        } else if (userType.equals("user")) {
+        System.out.println("Welcome User");
+
+
+
+
+
 
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
