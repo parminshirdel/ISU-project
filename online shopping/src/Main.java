@@ -1,4 +1,5 @@
 import java.awt.print.Book;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -6,6 +7,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Welcome To parmina online shop");
+        System.out.println("Please enter the category you want to Enter ");
+
+
+
 
 
         System.out.println("Are a user or admin");
@@ -14,7 +20,10 @@ public class Main {
         if (userType.equals("admin")) {
             System.out.println("Welcome Admin");
         } else if (userType.equals("user")) {
-        System.out.println("Welcome User");
+            System.out.println("Welcome User");
+        }
+    }
+}
 
 
 
@@ -25,8 +34,6 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
 
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        }
-    }
+            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/
 
 
